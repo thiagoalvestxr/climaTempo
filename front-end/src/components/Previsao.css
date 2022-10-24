@@ -1,0 +1,27 @@
+.cardPrevisao {
+    outline: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.cardPrevisao > .header {
+    background-color: #F7F7F7;
+}
+
+.cardPrevisao > .body {
+    background-color: transparent;
+}
+
+
+.cardPrevisao > .header p {
+    margin: 0 20px;
+    padding: 0px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.cardPrevisao > .body p {
+    margin: 0 20px;
+    padding: 0px;
+    text-align: justify;
+    text-justify: inter-word;
+}

@@ -1,0 +1,26 @@
+.card {
+    border: 2px solid LightGray;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .table > thead {
+    background-color: #F7F7F7;
+  }
+  
+  .table tbody > tr:last-child > td {
+    border-bottom: 0;
+  }
+
+  svg {
+    max-height: 300px;
+  
+    margin: 0 auto; /* poor attempt at centering */
+  
+    height: auto !important; /* overrides inline */
+    width: auto !important; /* overrides inline */
+  
+    max-width: 300px;
+    display: block;
+  }
